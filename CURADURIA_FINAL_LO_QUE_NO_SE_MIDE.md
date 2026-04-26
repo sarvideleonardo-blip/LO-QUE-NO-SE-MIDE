@@ -1249,3 +1249,68 @@ aq
 18. “Solo somos el eco de un grito sin garganta.”
 19. “La duda es la respiración del universo.”
 20. “El lenguaje no nombra: convoca.”
+
+---
+
+## FICHAS DE ERROR
+*(objeto encontrado / notas al pie de un sistema que colapsa)*
+
+**[E-0001 | NOMBRE_NULL]**  
+El sustantivo solicitado no fue encontrado en tiempo de ejecución. Se insertó “cuerpo” como parche temporal.
+
+**[E-0002 | REFERENCIA_TARDÍA]**  
+La palabra llegó después del fenómeno. La lectura continúa con 3.2 segundos de retraso ontológico.
+
+**[E-0003 | GRAMÁTICA_INESTABLE]**  
+Se detectó disputa de género en “universo”. Resultado: sintaxis en guerra civil.
+
+**[E-0004 | CERTEZA_OVERFLOW]**  
+El sistema intentó fijar una verdad final. Memoria saturada. Reinicie en modo duda.
+
+**[E-0005 | JOSE_PRIVILEGES]**  
+El usuario “Jose” obtuvo permisos de superusuario sin autenticación epistemológica.
+
+**[E-0006 | AXE_DRIVER_MISSING]**  
+“Hacha” cargada correctamente. Propósito no disponible para este plano.
+
+**[E-0007 | PROTOCOLO_CARNE_TIMEOUT]**  
+El cuerpo respondió antes que la mente. Se anuló la deliberación por latencia emocional.
+
+**[E-0008 | AMÍGDALA_TRIGGERED]**  
+Amenaza percibida sin amenaza confirmada. Activado protocolo de escape narrativo.
+
+**[E-0009 | SENTIDO_LEAK]**  
+Fuga de significado en la línea 0. El texto continúa funcionando por inercia poética.
+
+**[E-0010 | SILENCIO_NOT_EMPTY]**  
+El módulo de silencio contiene ruido residual, voces huérfanas y un río sin origen.
+
+**[E-0011 | IDENTIDAD_REDUNDANT]**  
+Se detectaron múltiples versiones del “yo” ejecutándose en paralelo. Ninguna es estable.
+
+**[E-0012 | FE_MIGRATION_LOOP]**  
+Ritual antiguo migrado a framework moderno. Cambió la interfaz; la estructura repite.
+
+**[E-0013 | SCIENCE_AS_DOGMA]**  
+Correlación promovida a causa por presión de interfaz. Revise sesgos y vuelva a medir.
+
+**[E-0014 | NOT_FOUND_NOT_FOUND]**  
+Módulo [[not/found]] llamado tres veces. La ausencia respondió en todos los intentos.
+
+**[E-0015 | ESPACIO_RECURSIVO]**  
+La expansión no encontró afuera. El universo se está compilando sobre sí mismo.
+
+**[E-0016 | BORDE_UNDEFINED]**  
+Consulta “¿hacia dónde?” inválida en geometría sin borde.
+
+**[E-0017 | MICELIA_SYNC]**  
+Conexiones subterráneas activas. Todo nodo afecta a otro aunque el usuario no lo perciba.
+
+**[E-0018 | LENGUAJE_TRANSDUCTOR]**  
+Cada palabra alteró el entorno. El lector acepta estos cambios al continuar.
+
+**[E-0019 | REALIDAD_HOT_RELOAD]**  
+La percepción recompiló el mundo durante la lectura. No se pudo restaurar versión anterior.
+
+**[E-0020 | FIN_SIN_CIERRE]**  
+Proceso terminado con advertencias. El vacío sigue en ejecución en segundo plano.
