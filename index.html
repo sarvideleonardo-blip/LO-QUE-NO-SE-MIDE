@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zombies Lunares — Prototipo</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero" aria-labelledby="game-title">
+        <div>
+          <p class="eyebrow">Puzzle de rescate · baja gravedad · no-clon</p>
+          <h1 id="game-title">Zombies Lunares</h1>
+          <p class="lede">
+            Guía a la horda hacia el portal antes de que se pierda en los cráteres.
+            Es un homenaje mecánico a los puzzles de los 90, con identidad propia,
+            zombies torpes y herramientas lunares.
+          </p>
+        </div>
+        <aside class="mission-card" aria-label="Objetivo de misión">
+          <strong>Objetivo</strong>
+          <span>Rescata al menos <b id="target-count">8</b> zombies lunares.</span>
+          <small>Consejo: selecciona una herramienta y haz clic sobre un zombie.</small>
+        </aside>
+      </section>
+
+      <section class="hud" aria-label="Controles del juego">
+        <button class="tool active" data-tool="walker" type="button">
+          <span>🚶</span><b>Caminante</b><small>reinicia rol</small>
+        </button>
+        <button class="tool" data-tool="blocker" type="button">
+          <span>🧱</span><b>Bloqueador</b><small>da la vuelta</small>
+        </button>
+        <button class="tool" data-tool="builder" type="button">
+          <span>🌉</span><b>Constructor</b><small>puente lunar</small>
+        </button>
+        <button class="tool" data-tool="digger" type="button">
+          <span>⛏️</span><b>Excavador</b><small>abre túnel</small>
+        </button>
+        <button class="tool" data-tool="floater" type="button">
+          <span>☂️</span><b>Flotador</b><small>caída segura</small>
+        </button>
+        <button id="restart" class="secondary" type="button">Reiniciar</button>
+      </section>
+
+      <section class="stage-wrap" aria-label="Escenario jugable">
+        <canvas id="game" width="960" height="540" aria-label="Zombies lunares en terreno de cráteres"></canvas>
+        <div class="status" role="status" aria-live="polite">
+          <span>Herramienta: <b id="selected-tool">Caminante</b></span>
+          <span>Salvados: <b id="saved-count">0</b></span>
+          <span>En campo: <b id="alive-count">0</b></span>
+          <span>Tiempo: <b id="timer">00:00</b></span>
+        </div>
+      </section>
+
+      <section class="instructions">
+        <h2>Cómo jugar</h2>
+        <ol>
+          <li>Los zombies aparecen por la esclusa izquierda y caminan solos.</li>
+          <li>Haz clic en un zombie para asignarle la herramienta seleccionada.</li>
+          <li>Usa bloqueadores, puentes, túneles y flotadores para llevarlos al portal verde.</li>
+          <li>Evita que caigan fuera del mapa o que se queden atrapados antes del objetivo.</li>
+        </ol>
+      </section>
+    </main>
+    <script src="src/game.js"></script>
+  </body>
+</html>
