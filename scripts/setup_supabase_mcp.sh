@@ -43,4 +43,11 @@ fi
 
 codex mcp login supabase
 
+if command -v npx >/dev/null 2>&1; then
+  echo "Instalando Agent Skills de Supabase (opcional)..."
+  npx skills add supabase/agent-skills || echo "WARN: no se pudieron instalar las Agent Skills de Supabase." >&2
+else
+  echo "WARN: npx no está instalado; omitiendo Agent Skills de Supabase." >&2
+fi
+
 echo "Verifica dentro de Codex con: /mcp"

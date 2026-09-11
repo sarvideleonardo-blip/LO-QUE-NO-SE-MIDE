@@ -183,6 +183,15 @@ canvas {
 
 .instructions h2 { margin: 0 0 10px; }
 .instructions ol { margin: 0; color: var(--muted); line-height: 1.75; padding-left: 22px; }
+.tip {
+  margin: 14px 0 0;
+  color: var(--text);
+  background: rgba(124, 255, 203, 0.1);
+  border: 1px solid rgba(124, 255, 203, 0.22);
+  border-radius: 14px;
+  padding: 12px 14px;
+}
+.tip b { color: var(--accent); }
 
 @media (max-width: 860px) {
   .hero { grid-template-columns: 1fr; }
