@@ -1,0 +1,10 @@
+{
+  "name": "zombies-lunares",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Prototipo web de puzzle de rescate con zombies lunares inspirado en clásicos de los 90.",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "check": "node --check src/game.js"
+  }
+}
